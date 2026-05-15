@@ -166,7 +166,7 @@ fontLoader.load(
         }
 
         generateDonuts()
-        gui.add(params, 'count').min(100).max(15000).step(100).name('Aantal sterren').onFinishChange(generateDonuts)
+        gui.add(params, 'count').min(100).max(20000).step(100).name('Aantal sterren').onFinishChange(generateDonuts)
 
     }
 )
